@@ -123,8 +123,73 @@ h1{
     padding-right: 20px;
 }
 
+h2{
+    font-size: 18px;
+    font-style: 700;
+
+}
+
 .conteneur-transport{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+article h3{
+    font-size: 36px;
+    font-weight:300 ;
     align-items: center;
+}
+
+article p{
+    text-align: center;
+}
+
+/*footer*/
+
+footer a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+.facebook a{
+    background-image: url(/image/facebook-nb.jpg);
+}
+
+.twitter a{ 
+    background-image: url(/image/twitter-nb.jpg);
+}
+
+.linkedin a{
+    background-image: url(/image/linkedin-nb.jpg);
+}
+
+.pinterest a{
+    background-image: url(/image/pinterest-nb\ 1.jpg);
+}
+
+.facebook a:hover{
+    background-image: url(/image/facebook-survol\ 1.jpg);
+}
+
+.twitter a:hover{ 
+    background-image: url(/image/twitter-survol.jpg);
+}
+
+.linkedin a:hover{
+    background-image: url(/image/linkedin-survol.jpg);
+}
+
+.pinterest a:hover{
+    background-image: url(/image/pinterest-survol.jpg);
 }
